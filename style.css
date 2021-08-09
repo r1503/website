@@ -31,6 +31,9 @@ nav ul li {
 @media (max-width:720px) {
     nav ul li {
         display : flex;
+        float : right;
+        padding-right : 10px;
+        font-size: 10px;
     }
     
     .center .uho {
