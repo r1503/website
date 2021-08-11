@@ -83,7 +83,7 @@ a:hover {
 
 @media (max-width:720px) {
     body {
-        padding-bottom: 860px;
+        padding-bottom: 53%;
     }
 
     .img1 .gambar {
@@ -92,6 +92,7 @@ a:hover {
         left: 50%;
         transform: translateX(-50%);
         width : 280px;
+        float : none;
     }
 
     .desc {
@@ -109,6 +110,7 @@ a:hover {
         right: 50%;
         left : 50%;
         transform: translateX(-50%);
+        float : none;
     }
 
     .desc2 {
