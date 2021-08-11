@@ -103,9 +103,12 @@ a:hover {
     }
 
     .img2 .gambar2 {
+        position : relative;
         top : 50px;
         width : 280px;
-        margin: auto;
+        right: 50%;
+        left : 50%;
+        transform: translateX(-50%);
     }
 
     .desc2 {
@@ -130,6 +133,6 @@ a:hover {
         height : 30px;
         background-color: rgb(35, 35, 134);;
         position : absolute;
-        bottom : -56%;
+        bottom : -60%;
     }
 }
