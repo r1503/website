@@ -5,7 +5,7 @@
 
 body {
     background-color: azure;
-    padding : 2px 0px 2px 0px;
+    padding : 2px 0px 750px 0px;
 }
 
 nav {
@@ -70,7 +70,44 @@ a:hover {
     top: 90px;
 }
 
+.bot {
+    line-height: 25px;
+    text-align: center;
+    color : white;
+    width : 100%;
+    height : 30px;
+    background-color: rgb(35, 35, 134);
+    position : absolute;
+    bottom : -30%;
+}
+
 @media (max-width:720px) {
+    .img1 .gambar {
+        margin : auto;
+        width : 280px;
+    }
+
+    .desc {position : relative;
+        font-size: 15px;
+        right: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .img2 .gambar2 {
+        position : relative;
+        width : 280px;
+        top : 50px;
+    }
+
+    .desc2 {
+        position : relative;
+        top : 60px;
+        right: 50%;
+        left : 50%;
+        transform: translateX(-50%);
+    }
+
     nav ul li {
         display : flex;
         float : right;
@@ -78,5 +115,13 @@ a:hover {
         font-size: 13px;
         font-family:Georgia, 'Times New Roman', Times, serif;
         padding-right: 10px;
+    }
+
+    .bot {
+        width : 100%;
+        height : 30px;
+        background-color: black;
+        position : absolute;
+        bottom : -56%;
     }
 }
