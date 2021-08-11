@@ -5,7 +5,7 @@
 
 body {
     background-color: azure;
-    padding : 2px 0px 750px 0px;
+    padding : 2px 0px 740px 0px;
 }
 
 nav {
@@ -82,12 +82,20 @@ a:hover {
 }
 
 @media (max-width:720px) {
+    body {
+        padding-bottom: 860px;
+    }
+
     .img1 .gambar {
-        margin : auto;
+        position : relative;
+        right: 50%;
+        left: 50%;
+        transform: translateX(-50%);
         width : 280px;
     }
 
-    .desc {position : relative;
+    .desc {
+        position : relative;
         font-size: 15px;
         right: 50%;
         left: 50%;
@@ -96,8 +104,11 @@ a:hover {
 
     .img2 .gambar2 {
         position : relative;
-        width : 280px;
         top : 50px;
+        right: 50%;
+        left : 10%;
+        transform: translateX(-50%);
+        width : 280px;
     }
 
     .desc2 {
